@@ -1,0 +1,59 @@
+body {
+    background-color: black;
+    color: white;
+    font-family: "copperplate", serif;
+}
+
+
+h1 {
+    color: white;
+    width: 100%;
+    text-align: center;
+
+}
+
+img {
+    width: 400px;
+    height: 400px;
+    border-radius: 30px;
+}
+
+.recipeimg {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.recipecards {
+    width: 100%;
+  }
+
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+    padding: 10px;
+    float: left;
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    inline-size: 250px;
+  }
+
+.link {
+    font-size: 40px;
+    color: white;
+    text-decoration: none;
+    font-family: "copperplate", serif;
+
+
+}
+
+a:hover {
+    text-shadow: 1px 1px 2px black;
+}
